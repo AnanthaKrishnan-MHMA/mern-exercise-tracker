@@ -5,7 +5,7 @@ const exerciseSchema = new Schema({
     username:{required:true,type:String},
     description:{required:true,type:String},
     duration:{required:true,type:Number},
-    date:{required:true,type:Date},
+    date:{required:true,type:Date}
 },{
     timestamps:true
 });

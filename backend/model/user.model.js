@@ -7,7 +7,7 @@ const userSchema = new Schema({
         required: true,
         unique: true,
         trim: true,
-        minlength: true
+        minlength: 3
     },
 },
     {
