@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {
   return (
+    <div className="container">
     <Router>
       <Navbar/>
       <Routes>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/create-user" element={<CreateUser />} />
       </Routes>
     </Router>
+    </div>
   );
 }
 
