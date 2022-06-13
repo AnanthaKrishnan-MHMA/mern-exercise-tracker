@@ -22,7 +22,7 @@ function CreateExercise(props) {
     }
     const clickSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:5000/exercises/add', { username, description, duration, date })
+        axios.post('http://192.168.1.105:5000/exercises/add', { username, description, duration, date })
             .then(response => {
                 console.log(response.data);
                 window.location ='/';

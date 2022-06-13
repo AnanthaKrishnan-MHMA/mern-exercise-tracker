@@ -17,9 +17,6 @@ function Navbar(props) {
                             <Link className="nav-link" to={"/create-exercise"}>Add Exercise</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to={"/edit-exercise"}>Edit Exercise</Link>
-                        </li>
-                        <li className="nav-item">
                             <Link className="nav-link" to={"/create-user"}>Create User</Link>
                         </li>
                         
